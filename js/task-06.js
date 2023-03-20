@@ -9,7 +9,7 @@
 
 
 refs.input.addEventListener('blur', () => {
-    if (refs.input.value.length >= parseInt(refs.data.dataset.length)) 
+    if (refs.input.value.length === parseInt(refs.data.dataset.length)) 
     {
       console.log('valid');
       refs.input.classList.add('valid');
