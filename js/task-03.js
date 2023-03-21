@@ -21,3 +21,5 @@ const elements = images.map((images) =>
 
 console.log(elements);
 imageContainer.insertAdjacentHTML('afterbegin', elements.join(''));
+
+
